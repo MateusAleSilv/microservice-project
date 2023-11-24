@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: mktech-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mateusaledev/mktech-config-server
+          #username: username
+          #password: password
+          default-label: main
+          search-paths:
+          - 'greeting-service*'
