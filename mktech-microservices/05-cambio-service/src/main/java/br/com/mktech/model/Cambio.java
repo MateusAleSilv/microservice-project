@@ -1,4 +1,4 @@
-package br.com.erudio.model;
+package br.com.mktech.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

@@ -1,4 +1,4 @@
-package br.com.erudio.controller;
+package br.com.mktech.controller;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.erudio.model.Cambio;
-import br.com.erudio.repository.CambioRepository;
+import br.com.mktech.model.Cambio;
+import br.com.mktech.repository.CambioRepository;
 
 @RestController
 @RequestMapping("cambio-service")
